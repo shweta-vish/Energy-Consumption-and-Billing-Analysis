@@ -1,65 +1,63 @@
-⚡ Energy Consumption and Billing Analysis
-🔍 Overview
+# Energy Consumption and Billing Analysis
+# Overview
 
-This project provides a data-driven analysis of electricity consumption and billing patterns for both Domestic (Residential) and Commercial consumers.
+This project delivers a comprehensive, data-driven analysis of electricity consumption and billing trends, comparing Domestic (Residential) and Commercial consumers.
 
-The main objective is to identify the key factors that influence monthly energy usage and cost. The project includes a detailed Jupyter Notebook performing statistical and machine learning analysis, along with an interactive Power BI dashboard for visual exploration.
+The objective is to identify the major factors influencing monthly electricity usage and cost. The analysis is performed using a detailed Jupyter Notebook with statistical and machine learning models, along with an interactive Power BI dashboard for visual insights.
 
-📁 Project Files
+# Project Files
 1. EB_dataset.csv
 
-Description:
-Raw dataset containing historical energy consumption, billing amounts, number of occupants, consumer type, and environmental variables (e.g., Average Temperature, Cooling Degree Days).
+Description: Raw Dataset
+Contains historical energy consumption values, billing amounts, number of occupants, consumer type, and environmental indicators (e.g., Average Temperature, Cooling Degree Days).
 
 2. final analysis eb.ipynb
 
-Description:
-A complete Jupyter Notebook that includes:
+Description: Data Analysis Notebook
+A complete Jupyter Notebook performing:
 
-Data cleaning & preprocessing
+Data cleaning and preprocessing
 
 Exploratory Data Analysis (EDA)
 
 Feature engineering
 
-Machine learning regression models (Random Forest, Gradient Boosting)
+Machine Learning regression models (Random Forest, Gradient Boosting)
 
-Model evaluation and feature importance visualizations
+Model evaluation and feature-importance visualization
 
 3. EBDASH.pbix
 
-Description:
-Interactive Power BI dashboard that visualizes:
+Description: Power BI Dashboard
+Interactive dashboard showcasing:
 
 Consumption vs. billing trends
 
 Differences between Domestic and Commercial consumers
 
-Seasonal/environmental impacts
+Seasonal and environmental impacts
 
 Feature relationships and usage patterns
 
-⭐ Key Findings (Analysis Highlights)
-1. Domestic Consumption
+# Key Findings
+Domestic Consumers
 
-Strong Predictors: Domestic energy use showed a high correlation with environmental variables such as temperature and Cooling Degree Days (CDD).
+Strong Predictors: Domestic energy usage showed high correlation with environmental factors such as temperature and Cooling Degree Days (CDD).
 
-Occupants Matter: Household size significantly influences baseline consumption levels.
+Occupants Influence: Household size significantly drives baseline energy usage.
 
-Result: Predictive models performed well for this segment.
+Result: Models performed accurately for Domestic consumption.
 
-2. Commercial Consumption
+Commercial Consumers
 
-Low Predictability: Commercial usage showed very weak or no correlation with the available variables.
+Low Predictability: Very weak or no correlation with available variables.
 
-Negative R²: Machine learning models performed poorly, indicating missing influential features.
+Negative R²: Regression models failed to capture patterns.
 
-Implication: Commercial consumption depends on other operational factors (business type, machinery load, working hours), not captured in this dataset.
+Reason: Commercial usage depends on external operational factors (business type, machinery load, hours), not included in the dataset.
 
-🛠️ Technical Stack & Requirements
-
-Analysis: Python 3.x
-Libraries:
+# Technical Stack
+Analysis (Python 3.x)
 
 pandas
 
@@ -69,21 +67,22 @@ matplotlib
 
 scikit-learn
 
-Visualization:
+Visualization
 
-Power BI Desktop (.pbix file)
+Power BI Desktop (.pbix)
 
-▶️ How to Reproduce the Analysis
-1. Clone the repository
+# How to Reproduce
+1. Clone the Repository
 https://github.com/shweta-vish/Energy-Consumption-and-Billing-Analysis
-cd energy-consumption-analysis
 
 2. Run the Notebook
 
-Open final analysis eb.ipynb in Jupyter Notebook, JupyterLab, or VS Code to walk through the full analysis.
+Open final analysis eb.ipynb using Jupyter Notebook, JupyterLab, or VS Code.
+Notebook Link:
 https://drive.google.com/file/d/1Aa7ZtMJRfkdz-7NIKMvq4H0eX-fTPDkg/view?usp=drive_link
 
 3. View the Dashboard
 
-Open EBDASH.pbix using Power BI Desktop to explore interactive visual insights.
+Open EBDASH.pbix in Power BI Desktop.
+Dashboard Link:
 https://drive.google.com/file/d/1zzMavR76WgP8d4ZuYmATWzsHnXxkgiiV/view?usp=drive_link
